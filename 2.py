@@ -9,7 +9,7 @@ def MatrizNula(linhas, colunas):
     matriz = []
     for _ in range(linhas):
         linha = []
-        for _ in range(linhas):
+        for _ in range(colunas):
             linha.append(0)
         matriz.append(linha)
     return matriz
