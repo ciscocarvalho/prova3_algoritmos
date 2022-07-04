@@ -31,7 +31,7 @@ def inputMatriz(linhas, colunas):
     matriz = []
     for i in range(1, linhas + 1):
         while True:
-            linha = list(map(int, input(f"Linha {i}: ").split()))
+            linha = list(map(float, input(f"Linha {i}: ").split()))
             if len(linha) != colunas:
                 print("Quantidade inválida de colunas!")
             else:
